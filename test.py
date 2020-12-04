@@ -28,3 +28,9 @@ register = {
   'email': 'teste.com'
 }
 print(register['email'])
+
+# interáveis - set -> conjunto de dados não ordenados (parcialmente imutável) é possível alterar
+# através de funções. Não é possível pegar a posição de cada valores.
+conjunto = set([1,2,3,4,5])
+conjunto2 = {1,2,3,4,5,6,7,8}
+print(conjunto2)
