@@ -13,4 +13,3 @@
 - verdadeiro = False
 
 # Como imprimir endereço da memória
-- print(id(idade))
