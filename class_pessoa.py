@@ -1,9 +1,9 @@
 # notes for class
 # Atividade: construir classe pessoa com todos os métodos, ver métodos privados
 class Pessoa: 
-  __nome: str
-  __sobrenome: str
-  __idade: int
+  nome: str
+  sobrenome: str
+  idade: int
 
   def nome_completo(self):
     print(self.nome + ' ' + self.sobrenome)
@@ -16,6 +16,6 @@ class Pessoa:
     
 
 p = Pessoa()
-p.set.idade()
-p.nome_completo()
+#p.set.idade()
+#p.nome_completo()
 print(p.get_idade())
